@@ -1,0 +1,141 @@
+text,label
+Water is leaking from the bathroom ceiling,maintenance__high
+The air conditioner is broken and the room is extremely hot,maintenance__high
+There is no power in my room,maintenance__high
+बाथरूम में पानी लीक हो रहा है,maintenance__high
+Water is leaking from the bathroom ceiling Case reference 4.,maintenance__high
+The air conditioner is broken and the room is extremely hot Case reference 5.,maintenance__high
+There is no power in my room Case reference 6.,maintenance__high
+बाथरूम में पानी लीक हो रहा है Case reference 7.,maintenance__high
+Water is leaking from the bathroom ceiling Case reference 8.,maintenance__high
+The air conditioner is broken and the room is extremely hot Case reference 9.,maintenance__high
+There is no power in my room Case reference 10.,maintenance__high
+बाथरूम में पानी लीक हो रहा है Case reference 11.,maintenance__high
+Water is leaking from the bathroom ceiling Case reference 12.,maintenance__high
+The air conditioner is broken and the room is extremely hot Case reference 13.,maintenance__high
+There is no power in my room Case reference 14.,maintenance__high
+बाथरूम में पानी लीक हो रहा है Case reference 15.,maintenance__high
+Water is leaking from the bathroom ceiling Case reference 16.,maintenance__high
+The air conditioner is broken and the room is extremely hot Case reference 17.,maintenance__high
+There is no power in my room Case reference 18.,maintenance__high
+बाथरूम में पानी लीक हो रहा है Case reference 19.,maintenance__high
+The room is dirty and needs cleaning,housekeeping__low
+Please send fresh towels,housekeeping__low
+The bedsheet has stains,housekeeping__low
+कमरे की सफाई नहीं हुई है,housekeeping__low
+The room is dirty and needs cleaning Case reference 4.,housekeeping__low
+Please send fresh towels Case reference 5.,housekeeping__low
+The bedsheet has stains Case reference 6.,housekeeping__low
+कमरे की सफाई नहीं हुई है Case reference 7.,housekeeping__low
+The room is dirty and needs cleaning Case reference 8.,housekeeping__low
+Please send fresh towels Case reference 9.,housekeeping__low
+The bedsheet has stains Case reference 10.,housekeeping__low
+कमरे की सफाई नहीं हुई है Case reference 11.,housekeeping__low
+The room is dirty and needs cleaning Case reference 12.,housekeeping__low
+Please send fresh towels Case reference 13.,housekeeping__low
+The bedsheet has stains Case reference 14.,housekeeping__low
+कमरे की सफाई नहीं हुई है Case reference 15.,housekeeping__low
+The room is dirty and needs cleaning Case reference 16.,housekeeping__low
+Please send fresh towels Case reference 17.,housekeeping__low
+The bedsheet has stains Case reference 18.,housekeeping__low
+कमरे की सफाई नहीं हुई है Case reference 19.,housekeeping__low
+There is loud music from the next room,noise__medium
+Guests are shouting in the corridor,noise__medium
+I cannot sleep because of noise,noise__medium
+बाहर बहुत शोर है,noise__medium
+There is loud music from the next room Case reference 4.,noise__medium
+Guests are shouting in the corridor Case reference 5.,noise__medium
+I cannot sleep because of noise Case reference 6.,noise__medium
+बाहर बहुत शोर है Case reference 7.,noise__medium
+There is loud music from the next room Case reference 8.,noise__medium
+Guests are shouting in the corridor Case reference 9.,noise__medium
+I cannot sleep because of noise Case reference 10.,noise__medium
+बाहर बहुत शोर है Case reference 11.,noise__medium
+There is loud music from the next room Case reference 12.,noise__medium
+Guests are shouting in the corridor Case reference 13.,noise__medium
+I cannot sleep because of noise Case reference 14.,noise__medium
+बाहर बहुत शोर है Case reference 15.,noise__medium
+There is loud music from the next room Case reference 16.,noise__medium
+Guests are shouting in the corridor Case reference 17.,noise__medium
+I cannot sleep because of noise Case reference 18.,noise__medium
+बाहर बहुत शोर है Case reference 19.,noise__medium
+My bill has an extra charge,billing__medium
+I need a refund for the cancelled night,billing__medium
+The payment was deducted twice,billing__medium
+बिल में गलत पैसे जोड़े गए हैं,billing__medium
+My bill has an extra charge Case reference 4.,billing__medium
+I need a refund for the cancelled night Case reference 5.,billing__medium
+The payment was deducted twice Case reference 6.,billing__medium
+बिल में गलत पैसे जोड़े गए हैं Case reference 7.,billing__medium
+My bill has an extra charge Case reference 8.,billing__medium
+I need a refund for the cancelled night Case reference 9.,billing__medium
+The payment was deducted twice Case reference 10.,billing__medium
+बिल में गलत पैसे जोड़े गए हैं Case reference 11.,billing__medium
+My bill has an extra charge Case reference 12.,billing__medium
+I need a refund for the cancelled night Case reference 13.,billing__medium
+The payment was deducted twice Case reference 14.,billing__medium
+बिल में गलत पैसे जोड़े गए हैं Case reference 15.,billing__medium
+My bill has an extra charge Case reference 16.,billing__medium
+I need a refund for the cancelled night Case reference 17.,billing__medium
+The payment was deducted twice Case reference 18.,billing__medium
+बिल में गलत पैसे जोड़े गए हैं Case reference 19.,billing__medium
+The room service food arrived cold,food__medium
+My breakfast order is incorrect,food__medium
+The restaurant delivery is delayed,food__medium
+खाना ठंडा आया है,food__medium
+The room service food arrived cold Case reference 4.,food__medium
+My breakfast order is incorrect Case reference 5.,food__medium
+The restaurant delivery is delayed Case reference 6.,food__medium
+खाना ठंडा आया है Case reference 7.,food__medium
+The room service food arrived cold Case reference 8.,food__medium
+My breakfast order is incorrect Case reference 9.,food__medium
+The restaurant delivery is delayed Case reference 10.,food__medium
+खाना ठंडा आया है Case reference 11.,food__medium
+The room service food arrived cold Case reference 12.,food__medium
+My breakfast order is incorrect Case reference 13.,food__medium
+The restaurant delivery is delayed Case reference 14.,food__medium
+खाना ठंडा आया है Case reference 15.,food__medium
+The room service food arrived cold Case reference 16.,food__medium
+My breakfast order is incorrect Case reference 17.,food__medium
+The restaurant delivery is delayed Case reference 18.,food__medium
+खाना ठंडा आया है Case reference 19.,food__medium
+There is smoke near the electrical panel,safety__critical
+I smell gas in the corridor,safety__critical
+A guest is injured and needs help,safety__critical
+गलियारे में धुआं है,safety__critical
+There is smoke near the electrical panel Case reference 4.,safety__critical
+I smell gas in the corridor Case reference 5.,safety__critical
+A guest is injured and needs help Case reference 6.,safety__critical
+गलियारे में धुआं है Case reference 7.,safety__critical
+There is smoke near the electrical panel Case reference 8.,safety__critical
+I smell gas in the corridor Case reference 9.,safety__critical
+A guest is injured and needs help Case reference 10.,safety__critical
+गलियारे में धुआं है Case reference 11.,safety__critical
+There is smoke near the electrical panel Case reference 12.,safety__critical
+I smell gas in the corridor Case reference 13.,safety__critical
+A guest is injured and needs help Case reference 14.,safety__critical
+गलियारे में धुआं है Case reference 15.,safety__critical
+There is smoke near the electrical panel Case reference 16.,safety__critical
+I smell gas in the corridor Case reference 17.,safety__critical
+A guest is injured and needs help Case reference 18.,safety__critical
+गलियारे में धुआं है Case reference 19.,safety__critical
+Reception is taking too long,service__low
+The staff member was rude,service__low
+My check-in is delayed,service__low
+चेक इन में बहुत देरी हो रही है,service__low
+Reception is taking too long Case reference 4.,service__low
+The staff member was rude Case reference 5.,service__low
+My check-in is delayed Case reference 6.,service__low
+चेक इन में बहुत देरी हो रही है Case reference 7.,service__low
+Reception is taking too long Case reference 8.,service__low
+The staff member was rude Case reference 9.,service__low
+My check-in is delayed Case reference 10.,service__low
+चेक इन में बहुत देरी हो रही है Case reference 11.,service__low
+Reception is taking too long Case reference 12.,service__low
+The staff member was rude Case reference 13.,service__low
+My check-in is delayed Case reference 14.,service__low
+चेक इन में बहुत देरी हो रही है Case reference 15.,service__low
+Reception is taking too long Case reference 16.,service__low
+The staff member was rude Case reference 17.,service__low
+My check-in is delayed Case reference 18.,service__low
+चेक इन में बहुत देरी हो रही है Case reference 19.,service__low

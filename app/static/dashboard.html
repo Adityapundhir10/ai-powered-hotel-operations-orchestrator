@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hotel AI Operations</title>
+<style>
+:root{font-family:Inter,system-ui,sans-serif;background:#07111f;color:#e8eef7}body{margin:0;background:linear-gradient(135deg,#07111f,#10243b)}main{max-width:1120px;margin:auto;padding:36px 22px}.hero{display:flex;justify-content:space-between;gap:20px;align-items:end}.tag{color:#70e1c2;text-transform:uppercase;letter-spacing:.15em;font-size:12px}.muted{color:#9fb0c4}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin:26px 0}.card{background:#0f2035;border:1px solid #25415e;border-radius:18px;padding:20px;box-shadow:0 12px 40px #0005}.value{font-size:31px;font-weight:750;margin:8px 0}.panel{background:#0f2035;border:1px solid #25415e;border-radius:18px;padding:22px;margin-top:18px}input,textarea,button{box-sizing:border-box;border-radius:10px;border:1px solid #345372;background:#091827;color:#e8eef7;padding:12px;width:100%;margin:6px 0}button{cursor:pointer;background:#2e9f83;border:0;font-weight:700}pre{white-space:pre-wrap;background:#07111f;border-radius:12px;padding:16px;min-height:80px}.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}@media(max-width:760px){.two{grid-template-columns:1fr}.hero{display:block}}</style>
+</head>
+<body><main>
+<div class="hero"><div><div class="tag">Aditya Pundhir · Portfolio reconstruction</div><h1>AI-Powered Hotel Operations</h1><p class="muted">Forecast demand, recommend ADR, retrieve SOPs, and orchestrate guest complaints.</p></div><div class="muted">FastAPI · LangGraph · XGBoost · RAG</div></div>
+<div class="grid">
+<div class="card"><div class="muted">Workflow</div><div class="value">Intent → SLA</div><div>Classification, retrieval, routing, escalation</div></div>
+<div class="card"><div class="muted">Revenue</div><div class="value">ADR + RevPAR</div><div>Forecast-driven price recommendations</div></div>
+<div class="card"><div class="muted">Retrieval</div><div class="value">Hybrid RAG</div><div>BM25, MiniLM, reranking, Weaviate-ready</div></div>
+<div class="card"><div class="muted">Infrastructure</div><div class="value">Event driven</div><div>Kafka, Redis and PostgreSQL adapters</div></div>
+</div>
+<div class="two">
+<section class="panel"><h2>Run complaint workflow</h2><textarea id="complaint" rows="5">There is water leaking from the bathroom ceiling and it is getting worse.</textarea><button onclick="runWorkflow()">Process complaint</button><pre id="workflowOut">Ready.</pre></section>
+<section class="panel"><h2>Search SOPs</h2><input id="query" value="urgent bathroom water leakage"><button onclick="searchSop()">Search SOPs</button><pre id="ragOut">Ready.</pre></section>
+</div>
+</main><script>
+async function runWorkflow(){const body={complaint_id:'DEMO-'+Date.now(),hotel_id:'DEL-001',room_number:'408',language:'en',text:document.getElementById('complaint').value};const r=await fetch('/api/v1/workflows/complaints',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});document.getElementById('workflowOut').textContent=JSON.stringify(await r.json(),null,2)}
+async function searchSop(){const r=await fetch('/api/v1/rag/search',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({query:document.getElementById('query').value,top_k:3})});document.getElementById('ragOut').textContent=JSON.stringify(await r.json(),null,2)}
+</script></body></html>

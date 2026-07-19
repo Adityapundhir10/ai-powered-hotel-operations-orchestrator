@@ -1,0 +1,15 @@
+AI-Powered Hotel Operations Workflow Orchestrator
+Portfolio reconstruction and substantial modifications © 2026 Aditya Pundhir.
+
+This distribution was developed from an uploaded copy of the MIT-licensed
+"Hotel Automation Engine" starter repository. The original MIT copyright
+notice (Copyright (c) 2026 Aeth) is preserved in LICENSE as required.
+
+The rewritten repository adds a new architecture, synthetic datasets,
+forecasting, pricing, transformer interfaces, hybrid RAG, LangGraph workflow,
+Kafka/Redis/PostgreSQL/Weaviate adapters, evaluation scripts, tests, and new
+documentation.
+
+No OYO proprietary source code, private data, credentials, internal documents,
+or confidential SOPs are included. OYO is not affiliated with or responsible
+for this portfolio reconstruction.

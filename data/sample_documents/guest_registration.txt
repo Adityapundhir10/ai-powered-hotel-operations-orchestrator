@@ -1,0 +1,8 @@
+GRAND HORIZON HOTEL - GUEST REGISTRATION FORM
+Guest Name: Rahul Sharma
+Booking ID: OYO-DEMO-1024
+Room Number: 408
+Check-In: 2026-07-20
+Check-Out: 2026-07-23
+Phone: +91 98765 43210
+Email: rahul.sharma@example.com
