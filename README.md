@@ -2,7 +2,6 @@
 
 # AI-Powered Hotel Operations Workflow Orchestrator
 
-**Portfolio reconstruction by Aditya Pundhir**  
 FastAPI · LangGraph · Kafka · Redis · PostgreSQL · XGBoost · DistilBERT · MiniLM · OCR · LayoutLMv3 · Hybrid RAG · Weaviate · SHAP
 
 </div>
